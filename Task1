@@ -12,7 +12,7 @@ double IE(double x, double L) {
 }
 
 double LeftAngle(double Umn, double Um_1n, double tau, double h) {
-    return Umn + (Um_1n - Umn) * h / tau;
+    return Umn + (Um_1n - Umn) * tau / h;
 }
 
 int main() {
